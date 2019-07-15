@@ -1,4 +1,4 @@
-FROM registry.redhat.io/rhel7
+FROM rhel7
 MAINTAINER Veer Muchandi veer@redhat.com
 ADD ./init.sh ./
 EXPOSE 8080
